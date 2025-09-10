@@ -1,0 +1,194 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4fbbe9bb-f901-44a1-a627-e17dcf1dfd68")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 152.4 50.8)
+		(size 26.67 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "31f9f531-2fe3-47c4-aff8-b530defc089c")
+		(property "Sheetname" "logic_gate_ldc"
+			(at 152.4 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "logic_gate_ldc.kicad_sch"
+			(at 152.4 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "inv_out0" input
+			(at 179.07 55.88 0)
+			(uuid "97fadacb-cf76-43a9-a5fd-7a05a90238b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "inv_out1" input
+			(at 179.07 62.23 0)
+			(uuid "7c8dc93c-b9db-430e-adae-55d353cb4ecc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "diy_ldc_stm32g474"
+				(path "/0f817693-300d-49bc-af04-04b0685fa23f/6af3595a-4f1c-4e4f-831c-0aed10119885/7c2259b0-133d-4fdd-9487-10e1fc2fcac5"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 127)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7fbc85f1-0509-413b-8a9a-80b3ecf68c06")
+		(property "Sheetname" "piezo_record_needle"
+			(at 152.4 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "piezo_record_needle.kicad_sch"
+			(at 152.4 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PIEZO_OUT_A" input
+			(at 177.8 134.62 0)
+			(uuid "c85e5857-f599-41e4-bc3c-1c87a0db6da7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PIEZO_OUT_B" input
+			(at 177.8 139.7 0)
+			(uuid "f15fdd33-6934-4c76-b463-4e631a70bccc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "diy_ldc_stm32g474"
+				(path "/0f817693-300d-49bc-af04-04b0685fa23f/6af3595a-4f1c-4e4f-831c-0aed10119885/7c2259b0-133d-4fdd-9487-10e1fc2fcac5"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 88.9)
+		(size 26.67 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c6accdc9-211d-4b70-8d9e-d64a5adf2429")
+		(property "Sheetname" "opamp_ldc"
+			(at 152.4 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "opamp_ldc.kicad_sch"
+			(at 152.4 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "opamp_ldc_0" output
+			(at 179.07 101.6 0)
+			(uuid "c87b30c1-5540-4a63-b2bd-582db879f0af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "opamp_ldc_1" output
+			(at 179.07 109.22 0)
+			(uuid "63b66743-21d6-468d-b2ab-bd2dea376eea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "diy_ldc_stm32g474"
+				(path "/0f817693-300d-49bc-af04-04b0685fa23f/6af3595a-4f1c-4e4f-831c-0aed10119885/7c2259b0-133d-4fdd-9487-10e1fc2fcac5"
+					(page "5")
+				)
+			)
+		)
+	)
+)
