@@ -4409,6 +4409,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 43.18) (xy 76.2 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3b0a7f-ac60-446d-b2b6-5ea9071249fb")
+	)
+	(wire
+		(pts
 			(xy 138.43 72.39) (xy 138.43 73.66)
 		)
 		(stroke
@@ -4759,6 +4769,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 45.72) (xy 76.2 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52a1656-ab85-484e-b324-6ddc231a83cc")
+	)
+	(wire
+		(pts
 			(xy 158.75 101.6) (xy 168.91 101.6)
 		)
 		(stroke
@@ -5037,6 +5057,16 @@
 		)
 		(uuid "59a88964-18f3-4ef9-b792-97fe313d56b1")
 	)
+	(label "USB_MCU_D+"
+		(at 173.99 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59acf023-08da-4d45-a401-3ce460cc3c3e")
+	)
 	(label "opamp3_vinp"
 		(at 109.22 152.4 0)
 		(effects
@@ -5056,6 +5086,16 @@
 			(justify left bottom)
 		)
 		(uuid "5f4f36f4-c531-4f11-85b4-a4fe147aaa12")
+	)
+	(label "USB_D+"
+		(at 76.2 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "69afea8e-1c32-4cbf-b348-5bb8e7530db5")
 	)
 	(label "dac1_out2"
 		(at 173.99 93.98 180)
@@ -5257,6 +5297,16 @@
 		)
 		(uuid "da295104-94bd-43d7-9543-9306bbde86ac")
 	)
+	(label "USB_MCU_D-"
+		(at 173.99 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd1fbe8b-5ef7-478b-b0d7-e7bdfa743cac")
+	)
 	(label "SPI3_MISO"
 		(at 111.76 106.68 0)
 		(effects
@@ -5276,6 +5326,16 @@
 			(justify left bottom)
 		)
 		(uuid "e70d64b2-1cb4-47ed-b03d-3bcaddb099ff")
+	)
+	(label "USB_D-"
+		(at 76.2 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f59d4e09-b6a7-4992-85c6-9c628c06ce2f")
 	)
 	(label "VREF+"
 		(at 114.3 81.28 0)
@@ -9161,6 +9221,26 @@
 		(pin "BOOST_EN" input
 			(at 63.5 38.1 0)
 			(uuid "87d202ce-f716-46b5-9cdb-0e2f123b49e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D+" input
+			(at 63.5 43.18 0)
+			(uuid "c4e827a1-d99d-4d42-9d3b-b3dfa359c260")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D-" input
+			(at 63.5 45.72 0)
+			(uuid "07043f6f-fbea-4c9c-a1de-7f641c799217")
 			(effects
 				(font
 					(size 1.27 1.27)
