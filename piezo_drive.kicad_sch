@@ -1130,7 +1130,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 71.12) (xy 198.12 80.01)
+			(xy 166.37 71.12) (xy 166.37 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1160,7 +1160,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 71.12) (xy 198.12 71.12)
+			(xy 134.62 71.12) (xy 166.37 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1220,7 +1220,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 68.58) (xy 115.57 68.58)
+			(xy 101.6 68.58) (xy 115.57 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1310,7 +1310,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 80.01) (xy 213.36 80.01)
+			(xy 166.37 80.01) (xy 213.36 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1400,7 +1400,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 119.38) (xy 115.57 119.38)
+			(xy 101.6 119.38) (xy 115.57 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1419,14 +1419,24 @@
 		(uuid "fa3ef111-7d3c-4553-9446-670d2580fc7c")
 	)
 	(label "dac1_out1"
-		(at 201.93 74.93 0)
+		(at 201.93 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4f234b6c-c0e0-426f-b356-d2fdabe2ce09")
+		(uuid "12ea9932-c14a-4f9e-982a-ce972c376fb6")
+	)
+	(label "dac1_out2"
+		(at 104.14 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b67e8e7-becc-40c7-ab86-3f9530e3608e")
 	)
 	(label "DAC1_CH2_GAIN"
 		(at 153.67 121.92 180)
@@ -1449,18 +1459,28 @@
 		(uuid "adfb522d-2bbc-455f-9b83-1228c0066b2f")
 	)
 	(label "dac1_out2"
-		(at 201.93 77.47 0)
+		(at 201.93 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b039f9b3-5cba-4af5-b28a-267bfcecb520")
+		(uuid "bc9eac80-9a89-4016-bcdc-ff2ccd80a22d")
+	)
+	(label "dac1_out1"
+		(at 104.14 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd2c758e-5818-4f1a-ac37-e57a7ed2a73a")
 	)
 	(hierarchical_label "DAC1_CH2"
 		(shape input)
-		(at 105.41 119.38 180)
+		(at 101.6 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1471,7 +1491,7 @@
 	)
 	(hierarchical_label "DAC1_CH1"
 		(shape input)
-		(at 104.14 68.58 180)
+		(at 101.6 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
