@@ -1496,7 +1496,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 144.78) (xy 162.56 144.78)
+			(xy 180.34 144.78) (xy 167.64 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1506,7 +1506,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 128.27) (xy 177.8 128.27)
+			(xy 180.34 128.27) (xy 177.8 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1566,7 +1566,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 128.27) (xy 179.07 144.78)
+			(xy 180.34 128.27) (xy 180.34 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1646,7 +1646,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 144.78) (xy 130.81 144.78)
+			(xy 144.78 144.78) (xy 130.81 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1743,16 +1743,6 @@
 			(type default)
 		)
 		(uuid "a5d4496c-ae01-45b0-944d-aef3d1d8be3a")
-	)
-	(wire
-		(pts
-			(xy 160.02 144.78) (xy 149.86 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b55fbf1a-85ee-49d2-bef9-1f75743b131b")
 	)
 	(wire
 		(pts
@@ -1886,6 +1876,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 144.78) (xy 160.02 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f61afc76-f9cd-4e46-b4f9-5f04faca6a41")
+	)
+	(wire
+		(pts
 			(xy 114.3 39.37) (xy 189.23 39.37)
 		)
 		(stroke
@@ -1964,7 +1964,7 @@
 		)
 		(uuid "e1215fe2-d3a5-4e6e-bbbd-7302f7755be1")
 	)
-	(hierarchical_label "INV_OUT0"
+	(hierarchical_label "INV_OUT1"
 		(shape input)
 		(at 218.44 135.89 0)
 		(effects
@@ -3046,8 +3046,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 146.05 144.78 270)
-		(mirror x)
+		(at 163.83 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3055,7 +3054,7 @@
 		(dnp no)
 		(uuid "8022295e-e287-49d1-b7c9-bbdfd63584c0")
 		(property "Reference" "C21"
-			(at 144.272 148.082 90)
+			(at 162.052 141.478 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3064,7 +3063,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 144.272 150.114 90)
+			(at 162.052 139.446 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3073,7 +3072,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 142.24 143.8148 0)
+			(at 160.02 145.7452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,7 +3081,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 144.78 0)
+			(at 163.83 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3091,7 +3090,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 144.78 0)
+			(at 163.83 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,7 +3098,7 @@
 			)
 		)
 		(property "LCSC" "C1588"
-			(at 147.2621 141.859 0)
+			(at 165.0421 147.701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,7 +3967,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 162.56 149.86 270)
+		(at 147.32 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3977,7 +3976,7 @@
 		(fields_autoplaced yes)
 		(uuid "d639e486-61c9-4096-a1c6-42600cf1ecd8")
 		(property "Reference" "J5"
-			(at 164.592 148.6478 90)
+			(at 149.352 148.6478 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3986,7 +3985,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 164.592 151.0721 90)
+			(at 149.352 151.0721 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3995,7 +3994,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 162.56 149.86 0)
+			(at 147.32 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4004,7 +4003,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 149.86 0)
+			(at 147.32 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,7 +4012,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 149.86 0)
+			(at 147.32 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
