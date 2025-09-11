@@ -1416,6 +1416,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 105.41) (xy 151.13 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b60009a-ace1-4c85-821d-5f178c4ddf5c")
+	)
+	(wire
+		(pts
 			(xy 165.1 72.39) (xy 161.29 72.39)
 		)
 		(stroke
@@ -1603,16 +1613,6 @@
 			(type default)
 		)
 		(uuid "63ba6481-ea5a-41ae-8ed3-f076b3857e88")
-	)
-	(wire
-		(pts
-			(xy 149.86 100.33) (xy 153.67 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6deefd3a-eb5d-4aeb-9fdd-5ff2af4b9735")
 	)
 	(wire
 		(pts
@@ -3124,7 +3124,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 158.75 100.33 0)
+		(at 147.32 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3132,7 +3132,7 @@
 		(dnp no)
 		(uuid "8c25ef57-58fb-44cd-82dc-85c40d6c3c8b")
 		(property "Reference" "J7"
-			(at 163.068 99.314 0)
+			(at 143.256 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,7 +3140,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 158.4326 96.7832 0)
+			(at 147.0026 96.7832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3148,7 +3148,7 @@
 			)
 		)
 		(property "Footprint" "gabe_connectors:SMA_BAT_Wireless_BWSMA-KWE-Z001"
-			(at 158.75 100.33 0)
+			(at 147.32 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3157,7 +3157,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 100.33 0)
+			(at 147.32 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3166,7 +3166,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 158.75 100.33 0)
+			(at 147.32 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3175,7 +3175,7 @@
 			)
 		)
 		(property "LCSC" "C496551"
-			(at 158.75 100.33 0)
+			(at 147.32 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,7 +4037,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 146.05 100.33 270)
+		(at 154.94 105.41 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4046,7 +4046,7 @@
 		(dnp no)
 		(uuid "e3f34497-0f87-49a0-8d1d-0bdbfd36c84c")
 		(property "Reference" "C19"
-			(at 144.526 104.14 90)
+			(at 156.464 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,7 +4055,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 144.78 106.426 90)
+			(at 156.21 99.314 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4064,7 +4064,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 142.24 99.3648 0)
+			(at 158.75 106.3752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4073,7 +4073,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 100.33 0)
+			(at 154.94 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +4082,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 100.33 0)
+			(at 154.94 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4090,7 +4090,7 @@
 			)
 		)
 		(property "LCSC" "C1588"
-			(at 147.2621 97.409 0)
+			(at 153.7279 108.331 0)
 			(effects
 				(font
 					(size 1.27 1.27)
