@@ -18157,6 +18157,7 @@
 		(property "Reference" "J6"
 			(at -5.0935 -2.825 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f9cd3bfd-6d52-4599-8b7a-d5e2edc6dc5a")
 			(effects
 				(font
@@ -23089,8 +23090,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "O1"
-		(at 157.4 69.2 0)
+	(gr_text "INV1"
+		(at 156.8 69.2 0)
 		(layer "F.SilkS")
 		(uuid "d1ba5655-5631-4c51-8959-7e7bea5d2221")
 		(effects
@@ -23113,8 +23114,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "O2"
-		(at 160.1 69.2 0)
+	(gr_text "INV2"
+		(at 159.7 69.2 0)
 		(layer "F.SilkS")
 		(uuid "e0b329d3-cf55-40d2-911e-7614a0e1680f")
 		(effects
@@ -23125,8 +23126,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "INV OUT0"
-		(at 142.4 91.1 0)
+	(gr_text "INV0"
+		(at 140.5 91.1 0)
 		(layer "F.SilkS")
 		(uuid "e90c7019-2570-4730-b886-380dee33b1f3")
 		(effects
